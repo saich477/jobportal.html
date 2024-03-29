@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+section{
+    margin: 0 350px;
+    padding: 10px 40px;
+    background-color: rgb(219, 215, 216);
+    border-radius: 5px;
+    box-shadow: 4px 4px rgb(204, 183, 183);
+    font-family: 'Poppins', sans-serif;
+}
+.candidate-name{
+    display: flex;
+    justify-content: space-between;
+}
+.candidate-name input{
+    margin-bottom: 20px;
+    width: 230px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 168);
+    border-radius: 5px;
+    color: aquamarine;
+}
+
+.dob{
+    display: flex;
+    justify-content: space-between;
+}
+.dob select{
+    width: 236px;
+    height: 40px;
+    border: 1px solid rgb(172, 167, 169);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.address-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.address-1 input{
+    margin-bottom: 20px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 169);
+    border-radius: 5px;
+}
+
+.address-2{
+    display: flex;
+    justify-content: space-between;
+}
+.address-2 input{
+    margin-bottom: 20px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid rgb(167, 172, 170);
+    border-radius: 5px;
+}
+.address-3{
+    display: flex;
+    justify-content: start;
+}
+.address-3 input{
+    margin-bottom: 20px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 5px;
+}
+.email-address{
+    display: flex;
+    justify-content: space-between;
+}
+.email-address input{
+    margin-bottom: 20px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 5px;
+}
+
+.linkedIn input{
+    margin-bottom: 20px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 5px;
+}
+
+.pos-applying{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.pos-applying select{
+    margin-bottom: 20px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 5px;
+}
+
+.start-date input{
+    margin-bottom: 20px;
+    width: 330px;
+    height: 35px;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 5px;
+}
+
+.file-upload input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.text-area textarea{
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.submit-form{
+    display: flex;
+    justify-content: center;
+}
+.submit-form input{
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
